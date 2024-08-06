@@ -1,73 +1,73 @@
+:root{
+    box-sizing: border-box;
+}
 body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #e8e8e8;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-header{
-    display: flex;
-    flex-direction: row;
-    background-color: #522D80;
-    color: white;
-}
-header span{
-    margin-left: 4vw;
-}
-header .menu_t{
-    font-size: xx-large;
-    font-weight: bold;
-    padding: 10px;
-}
-header .menu-table{
-    margin-left: auto;
-    margin-right: 2vw;
-}
-header .menu-table td{
-    font-size: 20px;
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-header .menu-table td a{
-    color: inherit;
-    text-decoration: none;
-}
-header .menu-table td:hover{
-    cursor: pointer;
-    background-color: #45256b;
-}
-
-
 Main{
     display: flex;
     flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.leftSide{
+    width: 50vw;
+    height: 100vh;
+    background-color: #00374e;
     }
-    .middle-text{
-        /* border-style: solid; */
-        background-color: #e8e8e8;
-        height: 40vh;
-        width: 630px;
-        margin-top:20vh;
-        margin-left: 10vw;
-        }
-        .name-big{
-            font-size: 80px;
-            font-weight: bolder;
-            color: #F56600;
-        }
-        .indent{
-            font-size: 20px;
-            margin-left: 60px;
-        }
-        .rest{
-            font-size: 20px;
-            margin-left: 4px;
-        }
-        .me{
-            width: 400px;
-            height: 450px;
-            margin-left: 130px;
-            margin-top: 100px;
-            box-shadow: -15px -15px #F56600;
-        }
+    .leftSide img{
+        width: 400px;
+        height: 450px;
+        margin-left: 13vw;
+        margin-top: 22vh;
+        border-style: groove;
+        border-width: 15px;
+        border-color: blanchedalmond;
+    }
+
+.rightSide{
+    width: 50vw;
+    background-color: blanchedalmond;
+    }
+    .content{
+        height: 80vh;
+        margin-top: 16vh;
+    }
+    .nameBig{
+        font-size: 80px;
+        text-align: center;
+    }
+    .occupation{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+        color: #4d4f4d;
+    }
+    .menu{
+        margin-top: 4vw;
+        margin-left: 19vw;
+    }
+    .menu td{
+        width: 10vw;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+
+    }
+    .menu img{
+        width: 70px;
+    }
+    .menu td a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .menu td:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+    #Me:hover{
+        cursor: pointer;
+    }
