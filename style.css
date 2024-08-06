@@ -4,35 +4,46 @@
 body{
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 Main{
     display: flex;
     flex-direction: row;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
 }
 
 .leftSide{
     width: 50vw;
-    height: 100vh;
+    height: 100%;
     background-color: #00374e;
     }
-    .headshot{
+    .pic-div{
+        margin: 10vh auto 5vh;
         width: 300px;
-        height: 350px;
-        margin-left: 13.5vw;
-        margin-top: 10vh;
-        border-style: groove;
-        border-width: 15px;
-        border-color: blanchedalmond;
-    }
+        }
+        .headshot{
+            border-style: groove;
+            border-width: 15px;
+            border-color: blanchedalmond;
+        }
+    .me-text{
+        margin: 35px;
+        text-align: justify;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 1.3;
+        color: rgb(192, 190, 190);
+        }
+
+/* --------------------------------------------------------------------------- */
 
 .rightSide{
-    width: 50vw;
+    width: 50%;
     background-color: blanchedalmond;
     }
     .content{
-        height: 80vh;
-        margin-top: 9vh;
+        margin-top: 8vh;
     }
     .nameBig{
         font-size: 80px;
@@ -45,15 +56,13 @@ Main{
         color: #4d4f4d;
     }
     .menu{
-        margin-top: 4vw;
-        margin-left: 19vw;
+        margin: 12px auto;
         }
         .menu td{
             width: 10vw;
             text-align: center;
             font-size: 25px;
-            padding-top: 2.5vh;
-            padding-bottom: 2.5vh;
+            padding: 2.5vh
 
         }
         .menu img{
