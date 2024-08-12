@@ -1,0 +1,28 @@
+.contact{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.content-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('lake.jpeg');
+    background-size: cover;
+    }
+    .contact-info{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 400px;
+        height: 200px;
+        background-color: white;
+        opacity: 50%;
+        }
+        .c-method{
+            font-weight: bold;
+            margin: 25px auto;
+            text-align: center;
+            font-size: 25px;
+        }
+
+
