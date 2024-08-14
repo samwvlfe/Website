@@ -46,7 +46,7 @@ Main{
 
 .rightSide{
     width: 30%;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(227, 225, 225);
     }
     .contents{
         margin-top: 8vh;
@@ -63,13 +63,12 @@ Main{
     }
     .menu{
         margin: 12px auto;
-        width: 100%;
+        width: 35%;
         }
         .menu td{
             text-align: center;
             font-size: 25px;
             padding: 2.5vh
-
         }
         .menu img{
             width: 70px;
