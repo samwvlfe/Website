@@ -11,7 +11,8 @@
     <Main>
         <div class="leftSide">
             <div>
-                <div class="resume-container">
+                <!-- show if in desktop view -->
+                <div class="resume-container mobileHide">
                     <div class="pdf-link">
                         <a href="https://drive.google.com/file/d/1xeS-xTUKjkLI7FDTmF2UwDeUAekBw3XG/view?usp=share_link" target="_blank" style="color: #522D80;">View Here</a>
                         <a href="https://drive.google.com/file/d/1xeS-xTUKjkLI7FDTmF2UwDeUAekBw3XG/view?usp=share_link" target="_blank" style="color: #522D80;">View Here</a>
@@ -20,6 +21,10 @@
                     </div>
                     <iframe src="media/Resume2024_1.0.pdf" frameborder="0" class="pdf"></iframe>
                 </div>
+                <!-- show if in mobile view -->
+                 <div class="pdf-link_m">
+                    <a href="https://drive.google.com/file/d/1xeS-xTUKjkLI7FDTmF2UwDeUAekBw3XG/view?usp=share_link" target="_blank">View Here</a>
+                 </div>
             </div>
         </div>
         <div class="rightSide">
@@ -50,7 +55,7 @@
                             <a href="contact.html">Contact Me</a>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="mobileHide">
                         <td>
                             <a href="https://www.linkedin.com/in/ronaldswolfe/" target="_blank">
                                 <img src="media/linkedIn.png" alt="LinkedIn Logo">
