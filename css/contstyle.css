@@ -24,4 +24,12 @@
             font-size: 25px;
         }
 
+@media only screen and (max-width: 600px){
+    .c-method{
+        font-size: 20px;
+    }
+    .contact-info{
+        height: 180px;
+    }
+}
 
