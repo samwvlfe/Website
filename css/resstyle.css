@@ -6,8 +6,11 @@
 .resume-container{
     width: 80%;
     height: 70vh;
-    margin: 0 auto;
+    margin: 2vh auto;
     margin-top: 1.3vh;
+    }
+    .pdf-link{
+        text-align: center;
     }
     .pdf-link a{
         font-size: 1.75vw;

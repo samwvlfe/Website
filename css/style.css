@@ -52,7 +52,7 @@ Main{
     background-color: rgb(227, 225, 225);
     }
     .contents{
-        margin-top: 8vh;
+        margin-top: 2vh;
     }
     .nameBig{
         font-size: 80px;
@@ -86,6 +86,7 @@ Main{
             text-underline-offset: 5px;
             font-weight: bold;
             font-size: 1.5em;
+            text-shadow: -1px 1px 2px #3e3e3e;
         }
         .Me{
             text-decoration: underline;
